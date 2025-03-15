@@ -15,8 +15,8 @@ class WebAgent():
     def __init__(self):
         # Tsugi-Tsugi login page
         self.url = 'https://m.tsugitsugi.com/login?next=%2Fplan%2Fselect'  
-        self.username = 'michaelchen0611@gmail.com'
-        self.password = 'HaveFun2!'
+        self.username = ''
+        self.password = ''
 
     def setup_driver(self):
         # Set up Chrome options to ignore SSL errors
